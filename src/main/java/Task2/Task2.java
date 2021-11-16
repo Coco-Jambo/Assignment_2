@@ -31,7 +31,7 @@ public class Task2 extends Application {
         //Creating a custom Pane for light bulb images
         class BulbPane extends StackPane {
 
-            Image bulbOn = new Image("file: src/images/on.png");
+            Image bulbOn = new Image("file:src/images/on.png");
             ImageView bulbOnImageView = new ImageView(bulbOn);
 
             Image bulbOff = new Image("file:src/images/off.png");
